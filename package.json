@@ -1,27 +1,37 @@
 {
-  "name": "atomic-plugins-inapps",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "cocoon-plugin-inapps-android-googleplay",
+  "version": "2.0.0",
+  "description": "Android Google Play In-App Purchase implementation",
+  "cordova": {
+    "id": "cocoon-plugin-inapps-android-googleplay",
+    "platforms": [
+      "android"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ludei/atomic-plugins-inapps"
   },
+  "keywords": [
+    "cordova",
+    "InApps",
+    "AppStore",
+    "Store",
+    "InApp Purchase",
+    "In",
+    "App",
+    "Payment",
+    "Billing",
+    "IAP",
+    "Google",
+    "Play",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
   "author": "ludei",
   "license": "MPL 2.0",
-  "devDependencies": {
-    "cordova-lib": "^4.2.0",
-    "del": "^1.1.1",
-    "gulp": "^3.8.10",
-    "gulp-jsdoc": "^0.1.4",
-    "gulp-jshint": "^1.9.0",
-    "gulp-shell": "^0.2.11",
-    "gulp-uglify": "^1.2.0"
-  }
+  "bugs": {
+    "url": "https://github.com/ludei/atomic-plugins-inapps/issues"
+  },
+  "homepage": "https://github.com/ludei/atomic-plugins-inapps#readme"
 }
