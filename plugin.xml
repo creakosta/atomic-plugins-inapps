@@ -10,8 +10,6 @@
         <source-file src="src/GooglePlayInAppServicePlugin.java" target-dir="src/com/ludei/inapps/cordova" />
         <source-file src="src/deps/com/ludei/inapps/googleplay/GooglePlayInAppService.java" target-dir="src/com/ludei/inapps/googleplay" />
         <source-file src="src/deps/com/ludei/inapps/googleplay/Utils.java" target-dir="src/com/ludei/inapps/googleplay" />
-        <source-file src="src/deps/com/android/vending/billing/IInAppBillingService.aidl" target-dir="src/com/android/vending/billing" />
-        <source-file src="src/deps/com/android/vending/billing/IInAppBillingService.aidl" target-dir="src/aidl/com/android/vending/billing" />
         <source-file src="src/deps/com/android/vending/billing/IInAppBillingService.aidl" target-dir="app/src/main/aidl/com/android/vending/billing" />
 
         <config-file target="app/src/main/res/xml/config.xml" parent="/*">
