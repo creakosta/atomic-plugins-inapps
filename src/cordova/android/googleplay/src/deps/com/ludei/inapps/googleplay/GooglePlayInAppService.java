@@ -365,8 +365,10 @@ public class GooglePlayInAppService extends AbstractInAppService
     }
 
     @Override
-    public boolean onActivityResult(int requestCode, int resultCode, Intent data)
-    {
+    public boolean onActivityResult(int requestCode, int resultCode, Intent data){
+        
+        super.onActivityResult(requestCode, resultCode, data);
+    
         if (requestCode != BUY_INTENT_REQUEST_CODE) {
             return false;
         }
