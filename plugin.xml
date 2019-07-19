@@ -11,16 +11,14 @@
         <source-file src="src/deps/com/ludei/inapps/googleplay/GooglePlayInAppService.java" target-dir="src/com/ludei/inapps/googleplay" />
         <source-file src="src/deps/com/ludei/inapps/googleplay/Utils.java" target-dir="src/com/ludei/inapps/googleplay" />
         <source-file src="src/deps/com/android/vending/billing/IInAppBillingService.aidl" target-dir="src/com/android/vending/billing" />
-        <!-- <source-file src="src/deps/com/android/vending/billing/IInAppBillingService.aidl" target-dir="app/src/main/aidl/com/android/vending/billing" /> -->
-        
-            
-        <config-file target="app/src/main/res/xml/config.xml" parent="/*">
+
+        <config-file target="res/xml/config.xml" parent="/*">
             <feature name="InAppService" >
                 <param name="android-package" value="com.ludei.inapps.cordova.GooglePlayInAppServicePlugin"/>
             </feature>
         </config-file>
 
-        <config-file target="app/src/main/AndroidManifest.xml" parent="/manifest">
+        <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
             <uses-permission android:name="com.android.vending.BILLING" />
         </config-file>
